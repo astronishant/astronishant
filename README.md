@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- ░░ ANIMATED KOI POND HEADER ░░ -->
+<!-- KOI POND HEADER -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="100%">
   <defs>
     <linearGradient id="water" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#071525"/>
-      <stop offset="45%"  stop-color="#0a3346"/>
+      <stop offset="0%" stop-color="#071525"/>
+      <stop offset="45%" stop-color="#0a3346"/>
       <stop offset="100%" stop-color="#071525"/>
     </linearGradient>
     <radialGradient id="sh1" cx="25%" cy="35%" r="20%">
@@ -13,53 +13,28 @@
       <stop offset="100%" stop-color="#38b2d8" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="pc"><rect width="860" height="210" rx="14"/></clipPath>
+
     <linearGradient id="gO" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff8c38"/><stop offset="55%" stop-color="#ff4500"/><stop offset="100%" stop-color="#b83000"/>
+      <stop offset="0%" stop-color="#ff8c38"/>
+      <stop offset="55%" stop-color="#ff4500"/>
+      <stop offset="100%" stop-color="#b83000"/>
     </linearGradient>
     <linearGradient id="gW" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#f0ebe3"/><stop offset="60%" stop-color="#d8d0c4"/><stop offset="100%" stop-color="#b0a898"/>
+      <stop offset="0%" stop-color="#f0ebe3"/>
+      <stop offset="60%" stop-color="#d8d0c4"/>
+      <stop offset="100%" stop-color="#b0a898"/>
     </linearGradient>
     <linearGradient id="gGo" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffe44a"/><stop offset="55%" stop-color="#ffaa00"/><stop offset="100%" stop-color="#cc7700"/>
+      <stop offset="0%" stop-color="#ffe44a"/>
+      <stop offset="55%" stop-color="#ffaa00"/>
+      <stop offset="100%" stop-color="#cc7700"/>
     </linearGradient>
     <linearGradient id="gBk" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2a2a2a"/><stop offset="60%" stop-color="#0d0d0d"/>
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="60%" stop-color="#0d0d0d"/>
     </linearGradient>
-    <g id="kO">
-      <ellipse cx="0" cy="0" rx="26" ry="9" fill="url(#gO)"/>
-      <ellipse cx="3" cy="2.5" rx="16" ry="4.5" fill="#ffaa55" opacity="0.3"/>
-      <ellipse cx="-7" cy="-2" rx="8" ry="6" fill="#ff6600" opacity="0.5"/>
-      <path d="M -9,-9 Q 1,-21 10,-9" fill="#e03800" opacity="0.85"/>
-      <path d="M -26,0 L -38,-12 L -38,12 Z" fill="#e03800" opacity="0.9"/>
-      <path d="M 5,5 Q 13,16 3,14" fill="#ff7733" opacity="0.6"/>
-      <circle cx="21" cy="-2.5" r="3" fill="#0a0a0a"/>
-      <circle cx="22" cy="-3.3" r="1" fill="white"/>
-    </g>
-    <g id="kW">
-      <ellipse cx="0" cy="0" rx="22" ry="8" fill="url(#gW)"/>
-      <ellipse cx="-5" cy="-2" rx="7" ry="5" fill="#ff5500" opacity="0.7"/>
-      <ellipse cx="9" cy="2.5" rx="6" ry="3.5" fill="#ff3300" opacity="0.55"/>
-      <path d="M -7,-7 Q 2,-17 9,-7" fill="#c8c0b4" opacity="0.8"/>
-      <path d="M -22,0 L -31,-10 L -31,10 Z" fill="#c8c0b4" opacity="0.9"/>
-      <circle cx="17" cy="-2" r="2.5" fill="#111"/>
-      <circle cx="17.7" cy="-2.7" r="0.8" fill="white"/>
-    </g>
-    <g id="kGo">
-      <ellipse cx="0" cy="0" rx="20" ry="7.5" fill="url(#gGo)"/>
-      <ellipse cx="2" cy="2" rx="12" ry="3.5" fill="#ffe97a" opacity="0.4"/>
-      <path d="M -6,-7 Q 2,-16 8,-7" fill="#ddaa00" opacity="0.8"/>
-      <path d="M -20,0 L -29,-9 L -29,9 Z" fill="#cc8800" opacity="0.9"/>
-      <circle cx="15" cy="-2" r="2.2" fill="#111"/>
-      <circle cx="15.7" cy="-2.6" r="0.7" fill="white"/>
-    </g>
-    <g id="kBk">
-      <ellipse cx="0" cy="0" rx="17" ry="6" fill="url(#gBk)"/>
-      <ellipse cx="4" cy="-1.5" rx="5" ry="3.5" fill="#999" opacity="0.25"/>
-      <path d="M -5,-6 Q 1,-13 7,-6" fill="#111" opacity="0.8"/>
-      <path d="M -17,0 L -24,-8 L -24,8 Z" fill="#111" opacity="0.9"/>
-      <circle cx="13" cy="-2" r="2" fill="#ff3300"/>
-      <circle cx="13.6" cy="-2.5" r="0.6" fill="white"/>
-    </g>
+
+    <!-- LOTUS -->
     <g id="lotus">
       <ellipse cx="0" cy="2" rx="10" ry="4" fill="#1a5c38" opacity="0.85"/>
       <ellipse cx="0" cy="-2" rx="10" ry="4" fill="#1a5c38" opacity="0.8" transform="rotate(60)"/>
@@ -74,47 +49,120 @@
     </g>
   </defs>
 
+  <!-- WATER -->
   <rect width="860" height="210" rx="14" fill="url(#water)"/>
   <rect width="860" height="210" rx="14" fill="url(#sh1)"/>
 
+  <!-- WATER LINES -->
   <g clip-path="url(#pc)" opacity="0.07" stroke="#7ecfee" stroke-width="1" fill="none">
     <path d="M 0,55 Q 215,40 430,58 Q 645,75 860,55"/>
     <path d="M 0,120 Q 215,105 430,122 Q 645,138 860,120"/>
     <path d="M 0,175 Q 215,162 430,178 Q 645,193 860,175"/>
   </g>
+
+  <!-- RIPPLES -->
   <g clip-path="url(#pc)" fill="none" stroke="#38b2d8">
     <ellipse cx="150" cy="80" rx="22" ry="5.5" stroke-width="0.5" opacity="0.14"/>
     <ellipse cx="680" cy="150" rx="20" ry="5" stroke-width="0.5" opacity="0.14"/>
   </g>
 
+  <!-- LOTUS DECORATIONS -->
   <use href="#lotus" transform="translate(68,170) scale(0.85)"/>
   <use href="#lotus" transform="translate(792,42) scale(0.72)"/>
 
+  <!-- FISH 1: large orange, right to left -->
   <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="930,88;650,70;350,105;50,85;-120,85" keyTimes="0;0.28;0.58;0.88;1" dur="20s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kO" transform="scale(1.5)"/>
-  </g>
-  <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="-90,155;220,135;530,165;870,145" keyTimes="0;0.33;0.66;1" dur="15s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kW" transform="scale(1.25) rotate(180,0,0)"/>
-  </g>
-  <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="940,120;720,100;430,130;130,112;-70,112" keyTimes="0;0.25;0.55;0.82;1" dur="12s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kGo" transform="scale(1.15)"/>
-  </g>
-  <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="-65,42;260,28;590,50;940,38" keyTimes="0;0.3;0.65;1" dur="10s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kBk" transform="scale(1.0) rotate(180,0,0)"/>
-  </g>
-  <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="-50,33;310,52;660,28;940,35" keyTimes="0;0.35;0.7;1" dur="17s" begin="-5s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kO" transform="scale(0.78) rotate(180,0,0)"/>
-  </g>
-  <g clip-path="url(#pc)">
-    <animateTransform attributeName="transform" type="translate" values="910,170;580,185;240,165;-80,175" keyTimes="0;0.33;0.68;1" dur="22s" begin="-8s" repeatCount="indefinite" additive="replace"/>
-    <use href="#kGo" transform="scale(0.88)"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="930,88; 650,70; 350,105; 50,85; -120,85"
+      keyTimes="0;0.28;0.58;0.88;1" dur="20s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(1.5)">
+      <ellipse cx="0" cy="0" rx="26" ry="9" fill="url(#gO)"/>
+      <ellipse cx="3" cy="2.5" rx="16" ry="4.5" fill="#ffaa55" opacity="0.3"/>
+      <ellipse cx="-7" cy="-2" rx="8" ry="6" fill="#ff6600" opacity="0.5"/>
+      <path d="M -9,-9 Q 1,-21 10,-9" fill="#e03800" opacity="0.85"/>
+      <path d="M -26,0 L -38,-12 L -38,12 Z" fill="#e03800" opacity="0.9"/>
+      <path d="M 5,5 Q 13,16 3,14" fill="#ff7733" opacity="0.6"/>
+      <circle cx="21" cy="-2.5" r="3" fill="#0a0a0a"/>
+      <circle cx="22" cy="-3.3" r="1" fill="white"/>
+    </g>
   </g>
 
+  <!-- FISH 2: white+orange, left to right -->
+  <g clip-path="url(#pc)">
+    <animateTransform attributeName="transform" type="translate"
+      values="-90,155; 220,135; 530,165; 870,145"
+      keyTimes="0;0.33;0.66;1" dur="15s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(-1.25,1.25)">
+      <ellipse cx="0" cy="0" rx="22" ry="8" fill="url(#gW)"/>
+      <ellipse cx="-5" cy="-2" rx="7" ry="5" fill="#ff5500" opacity="0.7"/>
+      <ellipse cx="9" cy="2.5" rx="6" ry="3.5" fill="#ff3300" opacity="0.55"/>
+      <path d="M -7,-7 Q 2,-17 9,-7" fill="#c8c0b4" opacity="0.8"/>
+      <path d="M -22,0 L -31,-10 L -31,10 Z" fill="#c8c0b4" opacity="0.9"/>
+      <circle cx="17" cy="-2" r="2.5" fill="#111"/>
+      <circle cx="17.7" cy="-2.7" r="0.8" fill="white"/>
+    </g>
+  </g>
+
+  <!-- FISH 3: gold, right to left -->
+  <g clip-path="url(#pc)">
+    <animateTransform attributeName="transform" type="translate"
+      values="940,120; 720,100; 430,130; 130,112; -70,112"
+      keyTimes="0;0.25;0.55;0.82;1" dur="12s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(1.15)">
+      <ellipse cx="0" cy="0" rx="20" ry="7.5" fill="url(#gGo)"/>
+      <ellipse cx="2" cy="2" rx="12" ry="3.5" fill="#ffe97a" opacity="0.4"/>
+      <path d="M -6,-7 Q 2,-16 8,-7" fill="#ddaa00" opacity="0.8"/>
+      <path d="M -20,0 L -29,-9 L -29,9 Z" fill="#cc8800" opacity="0.9"/>
+      <circle cx="15" cy="-2" r="2.2" fill="#111"/>
+      <circle cx="15.7" cy="-2.6" r="0.7" fill="white"/>
+    </g>
+  </g>
+
+  <!-- FISH 4: black, left to right -->
+  <g clip-path="url(#pc)">
+    <animateTransform attributeName="transform" type="translate"
+      values="-65,42; 260,28; 590,50; 940,38"
+      keyTimes="0;0.3;0.65;1" dur="10s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(-1,1)">
+      <ellipse cx="0" cy="0" rx="17" ry="6" fill="url(#gBk)"/>
+      <ellipse cx="4" cy="-1.5" rx="5" ry="3.5" fill="#999" opacity="0.25"/>
+      <path d="M -5,-6 Q 1,-13 7,-6" fill="#111" opacity="0.8"/>
+      <path d="M -17,0 L -24,-8 L -24,8 Z" fill="#111" opacity="0.9"/>
+      <circle cx="13" cy="-2" r="2" fill="#ff3300"/>
+      <circle cx="13.6" cy="-2.5" r="0.6" fill="white"/>
+    </g>
+  </g>
+
+  <!-- FISH 5: small orange, left to right -->
+  <g clip-path="url(#pc)">
+    <animateTransform attributeName="transform" type="translate"
+      values="-50,33; 310,52; 660,28; 940,35"
+      keyTimes="0;0.35;0.7;1" dur="17s" begin="-5s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(-0.78,0.78)">
+      <ellipse cx="0" cy="0" rx="26" ry="9" fill="url(#gO)"/>
+      <ellipse cx="3" cy="2.5" rx="16" ry="4.5" fill="#ffaa55" opacity="0.3"/>
+      <path d="M -9,-9 Q 1,-21 10,-9" fill="#e03800" opacity="0.85"/>
+      <path d="M -26,0 L -38,-12 L -38,12 Z" fill="#e03800" opacity="0.9"/>
+      <circle cx="21" cy="-2.5" r="3" fill="#0a0a0a"/>
+      <circle cx="22" cy="-3.3" r="1" fill="white"/>
+    </g>
+  </g>
+
+  <!-- FISH 6: gold, right to left lower -->
+  <g clip-path="url(#pc)">
+    <animateTransform attributeName="transform" type="translate"
+      values="910,170; 580,185; 240,165; -80,175"
+      keyTimes="0;0.33;0.68;1" dur="22s" begin="-8s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(0.88)">
+      <ellipse cx="0" cy="0" rx="20" ry="7.5" fill="url(#gGo)"/>
+      <ellipse cx="2" cy="2" rx="12" ry="3.5" fill="#ffe97a" opacity="0.4"/>
+      <path d="M -6,-7 Q 2,-16 8,-7" fill="#ddaa00" opacity="0.8"/>
+      <path d="M -20,0 L -29,-9 L -29,9 Z" fill="#cc8800" opacity="0.9"/>
+      <circle cx="15" cy="-2" r="2.2" fill="#111"/>
+    </g>
+  </g>
+
+  <!-- SPARKLES -->
   <g clip-path="url(#pc)" fill="#a8e6ff">
     <circle cx="130" cy="40" r="1.4" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="3.2s" repeatCount="indefinite"/></circle>
     <circle cx="380" cy="95" r="1.0" opacity="0"><animate attributeName="opacity" values="0;0.9;0" dur="2.5s" begin="0.9s" repeatCount="indefinite"/></circle>
@@ -123,27 +171,32 @@
     <circle cx="85" cy="165" r="1.0" opacity="0"><animate attributeName="opacity" values="0;0.7;0" dur="4.2s" begin="2.1s" repeatCount="indefinite"/></circle>
   </g>
 
-  <text x="430" y="88" font-family="Georgia,'Times New Roman',serif" font-size="40" font-weight="700" letter-spacing="2" fill="#f0e8d8" text-anchor="middle">Nishant Yadav</text>
-  <text x="430" y="122" font-family="Georgia,'Times New Roman',serif" font-size="14" letter-spacing="5.5" fill="#7ecfee" text-anchor="middle" opacity="0.88">CSE STUDENT  ·  BUILDER  ·  SPACE ENTHUSIAST</text>
+  <!-- NAME + TAGLINE -->
+  <text x="430" y="88" font-family="Georgia,'Times New Roman',serif"
+    font-size="40" font-weight="700" letter-spacing="2"
+    fill="#f0e8d8" text-anchor="middle">Nishant Yadav</text>
+  <text x="430" y="122" font-family="Georgia,'Times New Roman',serif"
+    font-size="14" letter-spacing="5.5"
+    fill="#7ecfee" text-anchor="middle" opacity="0.88">CSE STUDENT  ·  BUILDER  ·  SPACE ENTHUSIAST</text>
   <line x1="280" y1="134" x2="580" y2="134" stroke="#38b2d8" stroke-width="0.7" opacity="0.4"/>
-  <text x="430" y="154" font-family="Georgia,'Times New Roman',serif" font-size="11" letter-spacing="1" fill="#ff7c2a" text-anchor="middle" opacity="0.75">Idea → Architecture → Code → Application</text>
+  <text x="430" y="154" font-family="Georgia,'Times New Roman',serif"
+    font-size="11" letter-spacing="1"
+    fill="#ff7c2a" text-anchor="middle" opacity="0.75">Idea → Architecture → Code → Application</text>
 </svg>
 
 <br/>
 
-<!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=A9A9A9&center=true&vCenter=true&width=800&lines=Learning+how+things+work.;Building+things+that+probably+shouldn't+work.;Then+figuring+out+why+they+don't.+%F0%9F%98%AD;Going+way+too+deep+into+technical+rabbit+holes." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=A9A9A9&center=true&vCenter=true&width=800&lines=Learning+how+things+work.;Building+things+that+probably+shouldn't+work.;Then+figuring+out+why+they+don't.+%F0%9F%98%AD;Going+way+too+deep+into+technical+rabbit+holes." alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<!-- Badges -->
-<img src="https://komarev.com/ghpvc/?username=nishantyadawad&color=0a3346&style=flat-square" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=astronishant&color=0a3346&style=flat-square" alt="Profile Views"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Status-Building%20%26%20Debugging-0a3346?style=flat-square&logo=git&logoColor=38b2d8" alt="Status"/>
 &nbsp;
-<img src="https://img.shields.io/badge/CSE-Undergrad-0a3346?style=flat-square&logo=graduation-cap&logoColor=ff7c2a" alt="CSE"/>
+<img src="https://img.shields.io/badge/CSE-Undergrad-0a3346?style=flat-square&logoColor=ff7c2a" alt="CSE"/>
 
 </div>
 
@@ -176,49 +229,78 @@ I'm a Computer Science and Engineering undergraduate who enjoys turning random i
 
 <div align="center">
 
-<!-- Fish lane above the snake -->
+<!-- FISH LANE ABOVE SNAKE -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 28" width="100%">
+  <defs>
+    <linearGradient id="gOt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff8c38"/>
+      <stop offset="100%" stop-color="#ff4500"/>
+    </linearGradient>
+    <linearGradient id="gGt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe44a"/>
+      <stop offset="100%" stop-color="#ffaa00"/>
+    </linearGradient>
+  </defs>
   <rect width="860" height="28" fill="#071525"/>
   <path d="M 0,18 Q 215,6 430,20 Q 645,34 860,18" fill="none" stroke="#38b2d8" stroke-width="0.5" opacity="0.18"/>
+  <!-- orange fish left to right -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-40,14;300,9;650,17;940,12" keyTimes="0;0.35;0.7;1" dur="12s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="12" ry="4" fill="#ff7c2a" opacity="0.9"/>
-    <path d="M -12,0 L -19,-5 L -19,5 Z" fill="#ff4500" opacity="0.9"/>
-    <circle cx="9" cy="-1" r="1.5" fill="#111"/>
-    <circle cx="9.6" cy="-1.5" r="0.5" fill="white"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="-40,14; 300,9; 650,17; 940,12"
+      keyTimes="0;0.35;0.7;1" dur="12s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(-1,1)">
+      <ellipse cx="0" cy="0" rx="12" ry="4" fill="url(#gOt)"/>
+      <path d="M -4,-4 Q 0,-9 5,-4" fill="#e03800" opacity="0.8"/>
+      <path d="M -12,0 L -18,-5 L -18,5 Z" fill="#ff4500" opacity="0.9"/>
+      <circle cx="9" cy="-1" r="1.5" fill="#111"/>
+      <circle cx="9.6" cy="-1.5" r="0.5" fill="white"/>
+    </g>
   </g>
+  <!-- gold fish right to left -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="940,18;600,10;230,20;-80,15" keyTimes="0;0.33;0.68;1" dur="16s" begin="-4s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="10" ry="3.5" fill="#ffd700" opacity="0.85"/>
-    <path d="M 10,0 L 18,-4 L 18,4 Z" fill="#ffaa00" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="940,18; 600,10; 230,20; -80,15"
+      keyTimes="0;0.33;0.68;1" dur="16s" begin="-4s" repeatCount="indefinite" additive="replace"/>
+    <ellipse cx="0" cy="0" rx="10" ry="3.5" fill="url(#gGt)"/>
+    <path d="M -3,-3.5 Q 0,-8 4,-3.5" fill="#ddaa00" opacity="0.8"/>
+    <path d="M 10,0 L 17,-4 L 17,4 Z" fill="#ffaa00" opacity="0.9"/>
     <circle cx="-7" cy="-1" r="1.3" fill="#111"/>
-  </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="-30,8;400,16;860,10" keyTimes="0;0.5;1" dur="20s" begin="-10s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="9" ry="3.2" fill="#f0ebe3" opacity="0.8"/>
-    <ellipse cx="-2" cy="-1" rx="4" ry="2.2" fill="#ff5500" opacity="0.65"/>
-    <path d="M -9,0 L -14,-4 L -14,4 Z" fill="#ccc" opacity="0.8"/>
-    <circle cx="6" cy="-1" r="1.2" fill="#111"/>
   </g>
 </svg>
 
-<!-- The contribution snake — generated by GitHub Action -->
-<img src="https://raw.githubusercontent.com/nishantyadawad/nishantyadawad/output/github-contribution-grid-snake-dark.svg" alt="Koi fish contribution snake" width="100%"/>
+<!-- SNAKE CONTRIBUTION GRAPH -->
+<img src="https://raw.githubusercontent.com/astronishant/astronishant/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%"/>
 
-<!-- Fish lane below the snake -->
+<!-- FISH LANE BELOW SNAKE -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 28" width="100%">
+  <defs>
+    <linearGradient id="gWb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0ebe3"/>
+      <stop offset="100%" stop-color="#d8d0c4"/>
+    </linearGradient>
+  </defs>
   <rect width="860" height="28" fill="#071525"/>
   <path d="M 0,10 Q 215,22 430,8 Q 645,-4 860,10" fill="none" stroke="#38b2d8" stroke-width="0.5" opacity="0.18"/>
+  <!-- white fish left to right -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-40,14;350,9;760,17;940,13" keyTimes="0;0.38;0.72;1" dur="14s" begin="-7s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="11" ry="3.8" fill="#f0ebe3" opacity="0.8"/>
-    <ellipse cx="-3" cy="-1" rx="4" ry="2.5" fill="#ff5500" opacity="0.7"/>
-    <path d="M -11,0 L -17,-5 L -17,5 Z" fill="#ccc" opacity="0.8"/>
-    <circle cx="8" cy="-1" r="1.3" fill="#111"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="-40,14; 350,9; 760,17; 940,13"
+      keyTimes="0;0.38;0.72;1" dur="14s" begin="-7s" repeatCount="indefinite" additive="replace"/>
+    <g transform="scale(-1,1)">
+      <ellipse cx="0" cy="0" rx="11" ry="3.8" fill="url(#gWb)"/>
+      <ellipse cx="-3" cy="-1" rx="4" ry="2.5" fill="#ff5500" opacity="0.7"/>
+      <path d="M -3,-3.8 Q 1,-8 5,-3.8" fill="#c8c0b4" opacity="0.8"/>
+      <path d="M -11,0 L -17,-5 L -17,5 Z" fill="#ccc" opacity="0.8"/>
+      <circle cx="8" cy="-1" r="1.3" fill="#111"/>
+    </g>
   </g>
+  <!-- orange fish right to left -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="940,15;550,10;160,18;-80,13" keyTimes="0;0.35;0.7;1" dur="18s" begin="-3s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="10" ry="3.5" fill="#ff7c2a" opacity="0.85"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="940,15; 550,10; 160,18; -80,13"
+      keyTimes="0;0.35;0.7;1" dur="18s" begin="-3s" repeatCount="indefinite" additive="replace"/>
+    <ellipse cx="0" cy="0" rx="10" ry="3.5" fill="#ff7c2a"/>
+    <path d="M -3,-3.5 Q 0,-8 4,-3.5" fill="#e03800" opacity="0.8"/>
     <path d="M 10,0 L 17,-4 L 17,4 Z" fill="#ff4500" opacity="0.9"/>
     <circle cx="-7" cy="-1" r="1.3" fill="#111"/>
   </g>
@@ -248,9 +330,9 @@ I'm a Computer Science and Engineering undergraduate who enjoys turning random i
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=nishantyadawad&show_icons=true&theme=tokyonight&bg_color=071525&border_color=0a3d55&title_color=7ecfee&icon_color=ff7c2a&text_color=cdd6f4&ring_color=ff7c2a&hide_border=false" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=astronishant&show_icons=true&theme=tokyonight&bg_color=071525&border_color=0a3d55&title_color=7ecfee&icon_color=ff7c2a&text_color=cdd6f4&ring_color=ff7c2a&hide_border=false" width="48%"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishantyadawad&layout=compact&theme=tokyonight&bg_color=071525&border_color=0a3d55&title_color=7ecfee&text_color=cdd6f4&hide_border=false" width="38%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=astronishant&layout=compact&theme=tokyonight&bg_color=071525&border_color=0a3d55&title_color=7ecfee&text_color=cdd6f4&hide_border=false" width="38%"/>
 
 </div>
 
@@ -269,30 +351,38 @@ I'm a Computer Science and Engineering undergraduate who enjoys turning random i
 When I'm not coding, you'll probably find me exploring astronomy, aerospace technology, UI/UX design, or engaging in completely unnecessary Linux customisations. I like understanding what's happening under the hood, not just making something work.
 
 > **🔭 The Long-Term Mission**
+>
 > **Idea → Architecture → Code → Application**
+>
 > *While actually understanding what's happening along the way. And maybe building something cool enough to send to space someday. 🚀*
 
 ---
 
 <div align="center">
 
-<!-- Footer pond with swimming koi -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 52" width="100%">
   <defs>
     <linearGradient id="fw" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#071525"/>
       <stop offset="100%" stop-color="#0a3346"/>
     </linearGradient>
+    <linearGradient id="gOf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe44a"/>
+      <stop offset="100%" stop-color="#ffaa00"/>
+    </linearGradient>
   </defs>
   <rect width="860" height="52" rx="10" fill="url(#fw)"/>
   <ellipse cx="180" cy="36" rx="28" ry="6" fill="none" stroke="#38b2d8" stroke-width="0.5" opacity="0.18"/>
   <ellipse cx="680" cy="20" rx="24" ry="5" fill="none" stroke="#38b2d8" stroke-width="0.5" opacity="0.18"/>
   <g>
-    <animateTransform attributeName="transform" type="translate" values="-30,28;430,22;900,30" keyTimes="0;0.5;1" dur="25s" repeatCount="indefinite" additive="replace"/>
-    <ellipse cx="0" cy="0" rx="9" ry="3" fill="#ffd700" opacity="0.65"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="-30,28; 430,22; 900,30"
+      keyTimes="0;0.5;1" dur="25s" repeatCount="indefinite" additive="replace"/>
+    <ellipse cx="0" cy="0" rx="9" ry="3" fill="url(#gOf)"/>
     <path d="M -9,0 L -14,-4 L -14,4 Z" fill="#ffaa00" opacity="0.65"/>
   </g>
-  <text x="430" y="31" font-family="Georgia,serif" font-size="11" letter-spacing="4" fill="#7ecfee" text-anchor="middle" opacity="0.72">流水不腐  ·  FLOWING WATER NEVER STAGNATES  ·  nishantyadawad</text>
+  <text x="430" y="31" font-family="Georgia,serif" font-size="11" letter-spacing="4"
+    fill="#7ecfee" text-anchor="middle" opacity="0.72">流水不腐  ·  FLOWING WATER NEVER STAGNATES  ·  astronishant</text>
 </svg>
 
 </div>
