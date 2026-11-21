@@ -1,0 +1,43 @@
+name: Koi pond heatmap
+
+on:
+  schedule:
+    - cron: "43 2 * * *" # every day at 02:43 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: koi-heatmap
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate the koi pond
+        run: >-
+          python scripts/generate_koi_heatmap.py
+          --user "${{ github.repository_owner }}"
+          --out assets/koi-heatmap.svg
+
+      - name: Commit if the pond changed
+        run: |
+          if git diff --quiet -- assets/koi-heatmap.svg; then
+            echo "No change - the pond is calm."
+            exit 0
+          fi
+          git config user.name "koi-pond-bot"
+          git config user.email "koi-pond-bot@users.noreply.github.com"
+          git add assets/koi-heatmap.svg
+          git commit -m "chore: refresh koi pond heatmap"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
