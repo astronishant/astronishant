@@ -454,6 +454,7 @@
   <rect x="774" y="100" width="11" height="11" rx="2" fill="#0d1f2d"/>
   <rect x="774" y="114" width="11" height="11" rx="2" fill="#26d47a"/>
   <rect x="788" y="30" width="11" height="11" rx="2" fill="#0d1f2d"/>
+  <rect x="788" y="44" width="11" height="11" rx="2" fill="#0d1f2d"/>
 
   <!-- koi -->
   <g clip-path="url(#pondClip)">
@@ -508,7 +509,7 @@
   </g>
 
   <!-- stats -->
-  <text x="60" y="142" font-family="'Fira Code','SFMono-Regular',Consolas,monospace" font-size="9.5" fill="#6b8299" letter-spacing="0.3">57 contributions  ·  1-day streak  ·  peak 8  ·  21 active days</text>
+  <text x="60" y="142" font-family="'Fira Code','SFMono-Regular',Consolas,monospace" font-size="9.5" fill="#6b8299" letter-spacing="0.3">57 contributions  ·  0-day streak  ·  peak 8  ·  21 active days</text>
 
   <!-- legend -->
   <text x="719" y="142" font-family="'Fira Code','SFMono-Regular',Consolas,monospace" font-size="9" fill="#5f7488">Less</text>
