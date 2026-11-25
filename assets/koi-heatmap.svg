@@ -456,6 +456,7 @@
   <rect x="788" y="30" width="11" height="11" rx="2" fill="#0d1f2d"/>
   <rect x="788" y="44" width="11" height="11" rx="2" fill="#0d1f2d"/>
   <rect x="788" y="58" width="11" height="11" rx="2" fill="#0d1f2d"/>
+  <rect x="788" y="72" width="11" height="11" rx="2" fill="#0d1f2d"/>
 
   <!-- koi -->
   <g clip-path="url(#pondClip)">
